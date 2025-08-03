@@ -262,7 +262,8 @@ body {
 
 @media print {
     body {
-        background: white !important;
+       background: url(background.jpeg);
+       background-size: 100dvi;
     }
     .card {
         box-shadow: none !important;
@@ -282,3 +283,4 @@ body {
     }
 
 }
+
